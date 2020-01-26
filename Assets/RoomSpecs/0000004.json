@@ -1,0 +1,166 @@
+{
+  "floor": {
+    "type": 42,
+    "centre": {
+      "x": 11,
+      "y": 12,
+      "z": 0
+    },
+    "normal": "UP",
+    "size": [
+      20,
+      22
+    ]
+  },
+  "ceiling": {
+    "type": 32,
+    "centre": {
+      "x": 11,
+      "y": 12,
+      "z": 2
+    },
+    "normal": "DOWN",
+    "size": [
+      20,
+      22
+    ]
+  },
+  "walls": [
+    {
+      "type": 33,
+      "centre": {
+        "x": 1,
+        "y": 12,
+        "z": 1
+      },
+      "normal": "RIGHT",
+      "size": [
+        22,
+        2
+      ]
+    },
+    {
+      "type": 31,
+      "centre": {
+        "x": 11,
+        "y": 23,
+        "z": 1
+      },
+      "normal": "BACK",
+      "size": [
+        20,
+        2
+      ]
+    },
+    {
+      "type": 34,
+      "centre": {
+        "x": 21,
+        "y": 12,
+        "z": 1
+      },
+      "normal": "LEFT",
+      "size": [
+        22,
+        2
+      ]
+    },
+    {
+      "type": 33,
+      "centre": {
+        "x": 11,
+        "y": 1,
+        "z": 1
+      },
+      "normal": "FRONT",
+      "size": [
+        20,
+        2
+      ]
+    }
+  ],
+  "objects": [],
+  "lights": [
+    {
+      "location": {
+        "x": 6,
+        "y": 6,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 6,
+        "y": 12,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 6,
+        "y": 18,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 12,
+        "y": 6,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 12,
+        "y": 12,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 12,
+        "y": 18,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 18,
+        "y": 6,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 18,
+        "y": 12,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 18,
+        "y": 18,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    }
+  ]
+}
