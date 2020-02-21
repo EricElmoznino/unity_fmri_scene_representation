@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class ViewpointLogger : MonoBehaviour
 {
-    public GameObject room;
+    public GameObject room = null;
     public float updateInterval = 1.0f;
 
     private string filePath;
@@ -27,6 +27,10 @@ public class ViewpointLogger : MonoBehaviour
 
     public void Update()
     {
+        if (room == null)
+        {
+            Debug.LogWarning("No starting room assigned.");
+        }
         if (Time.time - lastLogTime < updateInterval)
         {
             return;

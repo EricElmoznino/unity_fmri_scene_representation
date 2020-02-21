@@ -1,49 +1,49 @@
 {
   "floor": {
-    "type": 39,
+    "type": 21,
     "centre": {
-      "x": 11,
-      "y": 13,
+      "x": 26,
+      "y": 11,
       "z": 0
     },
     "normal": "UP",
     "size": [
-      20,
-      24
+      50,
+      20
     ]
   },
   "ceiling": {
-    "type": 21,
+    "type": 16,
     "centre": {
-      "x": 11,
-      "y": 13,
+      "x": 26,
+      "y": 11,
       "z": 2
     },
     "normal": "DOWN",
     "size": [
-      20,
-      24
+      50,
+      20
     ]
   },
   "walls": [
     {
-      "type": 17,
+      "type": 19,
       "centre": {
         "x": 1,
-        "y": 13,
+        "y": 11,
         "z": 1
       },
       "normal": "RIGHT",
       "size": [
-        24,
+        20,
         2
       ]
     },
     {
-      "type": 35,
+      "type": 29,
       "centre": {
         "x": 11,
-        "y": 25,
+        "y": 21,
         "z": 1
       },
       "normal": "BACK",
@@ -53,28 +53,106 @@
       ]
     },
     {
-      "type": 18,
+      "type": 19,
       "centre": {
         "x": 21,
-        "y": 13,
+        "y": 19,
         "z": 1
       },
       "normal": "LEFT",
       "size": [
-        24,
+        4,
         2
       ]
     },
     {
-      "type": 22,
+      "type": 25,
       "centre": {
-        "x": 11,
+        "x": 26,
+        "y": 17,
+        "z": 1
+      },
+      "normal": "BACK",
+      "size": [
+        10,
+        2
+      ]
+    },
+    {
+      "type": 28,
+      "centre": {
+        "x": 31,
+        "y": 16,
+        "z": 1
+      },
+      "normal": "LEFT",
+      "size": [
+        2,
+        2
+      ]
+    },
+    {
+      "type": 31,
+      "centre": {
+        "x": 36,
+        "y": 15,
+        "z": 1
+      },
+      "normal": "BACK",
+      "size": [
+        10,
+        2
+      ]
+    },
+    {
+      "type": 41,
+      "centre": {
+        "x": 41,
+        "y": 14,
+        "z": 1
+      },
+      "normal": "LEFT",
+      "size": [
+        2,
+        2
+      ]
+    },
+    {
+      "type": 30,
+      "centre": {
+        "x": 46,
+        "y": 13,
+        "z": 1
+      },
+      "normal": "BACK",
+      "size": [
+        10,
+        2
+      ]
+    },
+    {
+      "type": 21,
+      "centre": {
+        "x": 51,
+        "y": 7,
+        "z": 1
+      },
+      "normal": "LEFT",
+      "size": [
+        12,
+        2
+      ]
+    },
+    {
+      "type": 21,
+      "centre": {
+        "x": 26,
         "y": 1,
         "z": 1
       },
       "normal": "FRONT",
       "size": [
-        20,
+        50,
         2
       ]
     }
@@ -110,15 +188,6 @@
     },
     {
       "location": {
-        "x": 6,
-        "y": 24,
-        "z": 1.6
-      },
-      "intensity": 0.25,
-      "radius": 2
-    },
-    {
-      "location": {
         "x": 12,
         "y": 6,
         "z": 1.6
@@ -139,15 +208,6 @@
       "location": {
         "x": 12,
         "y": 18,
-        "z": 1.6
-      },
-      "intensity": 0.25,
-      "radius": 2
-    },
-    {
-      "location": {
-        "x": 12,
-        "y": 24,
         "z": 1.6
       },
       "intensity": 0.25,
@@ -182,8 +242,89 @@
     },
     {
       "location": {
-        "x": 18,
-        "y": 24,
+        "x": 24,
+        "y": 6,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 24,
+        "y": 12,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 30,
+        "y": 6,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 30,
+        "y": 12,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 36,
+        "y": 6,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 36,
+        "y": 12,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 42,
+        "y": 6,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 42,
+        "y": 12,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 48,
+        "y": 6,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 48,
+        "y": 12,
         "z": 1.6
       },
       "intensity": 0.25,

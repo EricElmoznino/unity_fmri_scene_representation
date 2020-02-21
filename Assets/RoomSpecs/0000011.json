@@ -1,62 +1,88 @@
 {
   "floor": {
-    "type": 21,
+    "type": 25,
     "centre": {
-      "x": 11,
-      "y": 12,
+      "x": 16,
+      "y": 16,
       "z": 0
     },
     "normal": "UP",
     "size": [
-      20,
-      22
+      30,
+      30
     ]
   },
   "ceiling": {
-    "type": 30,
+    "type": 41,
     "centre": {
-      "x": 11,
-      "y": 12,
+      "x": 16,
+      "y": 16,
       "z": 2
     },
     "normal": "DOWN",
     "size": [
-      20,
-      22
+      30,
+      30
     ]
   },
   "walls": [
     {
-      "type": 21,
+      "type": 18,
       "centre": {
         "x": 1,
-        "y": 12,
+        "y": 11,
         "z": 1
       },
       "normal": "RIGHT",
-      "size": [
-        22,
-        2
-      ]
-    },
-    {
-      "type": 16,
-      "centre": {
-        "x": 11,
-        "y": 23,
-        "z": 1
-      },
-      "normal": "BACK",
       "size": [
         20,
         2
       ]
     },
     {
-      "type": 36,
+      "type": 26,
       "centre": {
-        "x": 21,
-        "y": 12,
+        "x": 5,
+        "y": 21,
+        "z": 1
+      },
+      "normal": "BACK",
+      "size": [
+        8,
+        2
+      ]
+    },
+    {
+      "type": 20,
+      "centre": {
+        "x": 9,
+        "y": 26,
+        "z": 1
+      },
+      "normal": "RIGHT",
+      "size": [
+        10,
+        2
+      ]
+    },
+    {
+      "type": 31,
+      "centre": {
+        "x": 20,
+        "y": 31,
+        "z": 1
+      },
+      "normal": "BACK",
+      "size": [
+        22,
+        2
+      ]
+    },
+    {
+      "type": 28,
+      "centre": {
+        "x": 31,
+        "y": 20,
         "z": 1
       },
       "normal": "LEFT",
@@ -66,7 +92,33 @@
       ]
     },
     {
-      "type": 27,
+      "type": 31,
+      "centre": {
+        "x": 26,
+        "y": 9,
+        "z": 1
+      },
+      "normal": "FRONT",
+      "size": [
+        10,
+        2
+      ]
+    },
+    {
+      "type": 42,
+      "centre": {
+        "x": 21,
+        "y": 5,
+        "z": 1
+      },
+      "normal": "LEFT",
+      "size": [
+        8,
+        2
+      ]
+    },
+    {
+      "type": 38,
       "centre": {
         "x": 11,
         "y": 1,
@@ -137,6 +189,24 @@
     },
     {
       "location": {
+        "x": 12,
+        "y": 24,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 12,
+        "y": 30,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
         "x": 18,
         "y": 6,
         "z": 1.6
@@ -157,6 +227,96 @@
       "location": {
         "x": 18,
         "y": 18,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 18,
+        "y": 24,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 18,
+        "y": 30,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 24,
+        "y": 12,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 24,
+        "y": 18,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 24,
+        "y": 24,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 24,
+        "y": 30,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 30,
+        "y": 12,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 30,
+        "y": 18,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 30,
+        "y": 24,
+        "z": 1.6
+      },
+      "intensity": 0.25,
+      "radius": 2
+    },
+    {
+      "location": {
+        "x": 30,
+        "y": 30,
         "z": 1.6
       },
       "intensity": 0.25,
