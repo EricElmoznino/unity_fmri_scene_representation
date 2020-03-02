@@ -12,11 +12,11 @@ public class ViewpointLogger : MonoBehaviour
     public float updateInterval = 1.0f;
 
     private string filePath;
-    private float lastLogTime;
+    private float lastLogTime = 0.0f;
     private Transform player;
     private Transform cam;
 
-    public void Start()
+    void Start()
     {
         string time = DateTime.Now.ToString();
         filePath = Path.Combine("output_logs", time + ".txt");
@@ -25,7 +25,7 @@ public class ViewpointLogger : MonoBehaviour
         cam = gameObject.GetComponentInChildren<Camera>().transform;
     }
 
-    public void Update()
+    void Update()
     {
         if (room == null)
         {
