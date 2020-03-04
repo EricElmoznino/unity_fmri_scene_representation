@@ -14,7 +14,9 @@ public class BuildScene : MonoBehaviour
 
     void Start()
     {
-        room = new GameObject(roomName);
+        GameObject roomPrefab = Resources.Load<GameObject>("Prefabs/Room");
+        room = Instantiate<GameObject>(roomPrefab);
+        room.name = roomName;
         JObject roomData = LoadJsonRoom(roomName);
         PlaceSurfaces((JObject)roomData["floor"], (JObject)roomData["ceiling"], (JArray)roomData["walls"]);
         PlaceLights((JArray)roomData["lights"]);

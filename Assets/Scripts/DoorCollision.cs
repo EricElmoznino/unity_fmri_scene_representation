@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class DoorCollision : MonoBehaviour
 {
+    private Logger logger;
+
+    private void Start()
+    {
+        logger = GameObject.FindGameObjectWithTag("GameController").GetComponent<Logger>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "ExitDoor")
@@ -15,7 +22,7 @@ public class DoorCollision : MonoBehaviour
             Vector3 teleport = door_loc + door_normal * player_radius;
             teleport.y = gameObject.transform.position.y;
             gameObject.transform.position = teleport;
-            gameObject.GetComponent<ViewpointLogger>().room = door.parent.gameObject;
+            logger.room = door.parent.gameObject;
         }
     }
 }
